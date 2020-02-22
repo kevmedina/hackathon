@@ -9,7 +9,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('https://files.slack.com/files-pri/T02CQ4EN4-FUCMBV5ME/blur_screen.jpg');
+    background-image: url('../public/images/blur screen.jpg');
     background-size: cover;
 }
 
