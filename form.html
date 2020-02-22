@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PT - Hackathon</title>
+    <!-- ADD JQUERY CDN - BOOTSTRAP IS DEPENDENT ON IT SO HAS TO BE LOADED FIRST -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- ADD POPPER CDN - BOOTSTRAP IS DEPENDENT ON IT SO HAS TO BE LOADED FIRST -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- ADD BOOTSTRAP CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+
+    <!-- ADD BOOTSTRAP JS CDN -->
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- YOUR STYLES COME LAST SINCE YOU DON'T WANT IT TO BE OVERWRITTEN WITH THE BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+
+      <div class="container-fluid outer-container">
+          <!-- Form -->
+          <div style="margin-right: 300px;">
+            <select name="" id="">
+                <option value=""></option>
+                <option value="">US</option>
+                <option value="">AA</option>
+                <option value="">AE</option>
+                <option value="">AP</option>
+                <option value="">CA</option>
+                <option value="">MX</option>
+            </select>
+            <div class="form-group">
+                <label for="first-name">First Name</label>
+                <input id="first-name" class="form-control" type="text" required="required">
+            </div>
+            <div class="form-group">
+                <label for="last-name">Last Name</label>
+                <input id="last-name" class="form-control" type="text" required="required">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input id="email" class="form-control" type="email" pattern="/^\S+@\S+\.\S+$/" required="required">
+            </div>
+            <div class="form-group">
+                <label for="">Address</label>
+                <input id="" class="form-control" type="text" required="required">
+            </div>
+            <div class="form-group">
+                <label for="">Apt (Optional)</label>
+                <input id="" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+                <label for="">City</label>
+                <input id="" class="form-control" type="text" required="required">
+            </div>
+            <div class="form-group">
+                <select name="" id="">
+                    <option value=""></option>
+                    <option value="">AK</option>
+                    <option value="">AL</option>
+                    <option value="">AR</option>
+                    <option value="">AZ</option>
+                    <option value="">CA</option>
+                    <option value="">CO</option>
+                    <option value="">CT</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="">Zip Code</label>
+                <input id="" class="form-control" type="number" required="required">
+            </div>
+            <div class="form-group">
+                <label for="">Phone Number</label>
+                <input id="" class="form-control" type="number" required="required">
+            </div>
+            <div class="form-group">
+                <label for="">Credit Card Information</label>
+                <input id="" class="form-control" type="text" required="required">
+            </div>
+            <div class="form-group">
+                <label for="">Name On Card</label>
+                <input id="" class="form-control" type="text" required="required">
+            </div>
+            <div class="form-group">
+                <select name="" id="">
+                    <option value=""></option>
+                    <option value="">01</option>
+                    <option value="">02</option>
+                    <option value="">03</option>
+                    <option value="">04</option>
+                </select>
+                <select name="" id="">
+                    <option value=""></option>  
+                    <option value="">2010</option>
+                    <option value="">2011</option>
+                    <option value="">2012</option>
+                    <option value="">2013</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="">Security Code</label>
+                <input id="" class="form-control" type="text" required="required">
+            </div>
+            <div>
+                <h5>Billing Information</h5>
+                <input type="checkbox">Use Shipping Address</input>
+                <p>Name: </p>
+                <p>Address: </p>
+
+                <hr>
+
+                <h5>Other Ways To Pay</h5>
+            </div>
+          </div>
+          
+          <!-- Order Summary -->
+          <div>
+            <h2>Order Summary</h2>
+            <span>Subtotal (1 item) $19.99</span>
+          </div>
+      </div>
+
+  </body>
+</html>

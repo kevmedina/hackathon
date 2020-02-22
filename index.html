@@ -37,6 +37,41 @@
     <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
-      
+
+      <div class="container-fluid outer-container">
+          <form action="" method="POST">
+              <img id="close-img" src="https://files.slack.com/files-pri/T02CQ4EN4-FU2HES7FB/image.png" alt="">
+              <h2 class="text-center">Sign In</h2>
+              <div class="form-group">
+                  <label for="email-input">Email</label>
+                  <input id="email-input" class="form-control" type="email" pattern="/^\S+@\S+\.\S+$/" name="email" placeholder="Email address" required="required">
+              </div>
+
+              <div class="form-group">
+                  <label for="password-input">Password</label>
+                  <input id="password-input" class="form-control" type="password" name="password" placeholder="Enter your password" required="required">
+              </div>
+
+              <div class="form-group form-check inline-block">
+                  <input type="checkbox" class="form-check-input" value="Remember Me">
+                  <label class="form-check-label">Remember Me</label>
+                  <span class="form-text text-muted">Forgot Password?</span>
+              </div>
+
+              <div class="form-group">
+                  <a class="btn btn-secondary" href="">Sign In</a>
+              </div>
+
+              <div class="form-group m-5">
+                  <img class="facebook-img" src="https://files.slack.com/files-pri/T02CQ4EN4-FU2GZB6UR/image.png" alt="facebook login">
+                  <img src="https://files.slack.com/files-pri/T02CQ4EN4-FUC732D2Q/image.png" alt="google login">
+                  <div class="text-center">
+                      <a class="btn btn-primary btn-lg" href="/form.html">Check Out as Guest</a>
+                  </div>
+              </div>
+
+          </form>
+      </div>
+
   </body>
 </html>
