@@ -9,7 +9,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: rgba(0, 0, 0, 0.2); */
+    background-image: url('https://files.slack.com/files-pri/T02CQ4EN4-FUCMBV5ME/blur_screen.jpg');
+    background-size: cover;
 }
 
 .outer-container {
@@ -23,6 +24,7 @@ form {
     box-shadow: 1px 1px 5px black;
     padding: 20px;
     position: relative;
+    background-color: #FFFFFF;
 }
 
 img {
